@@ -1,0 +1,36 @@
+---
+layout: layout.njk
+---
+<main><h1 id="titre">Formulaire de contact</h1>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label id="name"  for="name">Votre nom:<br /> <input type="text" name="name"  placeholder="Votre nom" /></label>
+  </p>
+   <p>
+    <label id="prenom"  for="prenom">Votre Prénom:<br /> <input type="text" name="prenom"  placeholder="Votre prénom" /></label>
+  </p>
+  <p>
+    <label id="email"  for="email">Votre E-mail:<br /> <input type="email" name="email" placeholder="exemple@email.com" /></label>
+  </p>
+  <p>
+    <label for="phone">Votre téléphone:<br />
+    <input type="tel" id="phone" name="phone"  placeholder="0606060606"
+       
+       required /></label>
+  </p>
+   <p>
+    <label id="message" for="message">Message:<br /> <textarea name="message" placeholder="Votre message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Valider</button>
+  </p>
+</form>
+</div>
+  </div>
+</div>
+</main>
+

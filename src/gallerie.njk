@@ -1,0 +1,53 @@
+---
+layout: layout.njk
+---
+<main>
+   <h1>Gallerie</h1>
+   <div class="container-fluid text-center">
+  <div class="row">
+    <div class="col">
+     
+
+     {% for post in collections.mariage %}
+     <a href= "{{ post.url | url }}" >{{ post.data.title }}<h2>Photo mariage</h2>
+    {% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotomariage.jpg" alt="Voir le book photo de mariage"></a>
+   
+    {% for post in collections.bebe %}
+      <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo bébé</h2>{% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotobébénoiretblanc.jpg" alt="Voir le book photo de Bébé"></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+  {% for post in collections.grossesse %}
+      <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo grossesse</h2>{% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotogrossesse.jpg" alt="Voir le book photos de grossesse"></a>
+
+      {% for post in collections.bapteme %}
+      <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo baptème</h2>{% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotoBaptème.jpg" alt="Voir le book photo de mariage"></a>
+  </div>
+    </div>
+    <div class="row">
+    <div class="col">
+    {% for post in collections.famille %}
+      <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo famille</h2>{% endfor %} <img class="img-fluid galerie" src="/images/CharlesCantinphotofamille.jpg" alt="Voir le book photo de mariage"></a>
+  
+  {% for post in collections.couple %}
+        <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo couple</h2>{% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotocouple.jpg" alt="Voir le book photo de mariage"></a>
+
+      <!--  {% set blogposts = collections.blogposts | reverse %}
+{% for entry in blogposts %}
+  {% if loop.first %}<ul>{% endif %}
+    <article>
+      <h2><a href="{{ entry.url }}">{{ entry.data.title }}</a></h2>
+      <p>{{ entry.data.intro }}</p>
+    </article>
+  {% if loop.last %}</ul>{% endif %}
+{% else %}
+  <p>No blogposts found</p>
+{% endfor %}-->
+  
+    </div>
+  </div>
+</div>
+</main>
+
+ 
