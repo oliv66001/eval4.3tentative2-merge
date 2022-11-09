@@ -1,4 +1,13 @@
 ---
 label: Post-photo-couple
 hide_body: false
-fields: []
+fields:
+- name: couple
+  type: tag_list
+  default: []
+  label: couple
+- name: photo-couple
+  type: file
+  config:
+    maxSize: 64
+  label: photo-couple
