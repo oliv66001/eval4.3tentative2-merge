@@ -8,4 +8,5 @@ fields:
     maxSize: 64
   label: photo de couple
 pages:
+- Photo-bebe/couple.md
 - Photo-bebe/photo bebe/photo-de-bebe.md
