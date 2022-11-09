@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: 'tags: couple'
-  label: 'tags: couple'
+  path: photo-couple
+  label: photo-couple
   create: all
   match: "**/*"
 - type: directory
