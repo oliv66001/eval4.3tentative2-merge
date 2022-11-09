@@ -11,3 +11,5 @@ fields:
   config:
     maxSize: 64
   label: photo-couple
+pages:
+- photo-couple/photoCoupleTest.md
