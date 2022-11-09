@@ -1,4 +1,9 @@
 ---
 label: photo
 hide_body: false
-fields: []
+fields:
+- name: photo_de_couple
+  type: file
+  config:
+    maxSize: 64
+  label: photo de couple
