@@ -10,7 +10,7 @@ sections:
   create: all
   match: post-couple
   templates:
-  - photo
+  - post-photo-couple
 - type: heading
   label: blog
 upload_dir: uploads
