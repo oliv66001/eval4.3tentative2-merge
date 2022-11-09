@@ -7,3 +7,5 @@ fields:
   config:
     maxSize: 64
   label: photo de couple
+pages:
+- Photo-bebe/photo bebe/photo-de-bebe.md
