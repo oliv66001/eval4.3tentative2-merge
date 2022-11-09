@@ -1,17 +1,16 @@
 @media screen and (max-width: 419px)  {
-    img{
-        margin-top: 20px;
-        
+    #titre{
+        font-size: 30px;
     }
-    #photo1{
-        height: 90%;
-        margin-top: -40px;
-        margin-bottom: 30px;
+     /* Tarif */
+     #tarifI{
+        width: 90%;
+        height: 100%;
+         }
+         /* footer */
+   .footer{
+        margin-top: 40px;
     }
-    h1[id=titreP]{
-        font-size: 35px;
-    }
-    
 }
 @media screen and (max-width: 589px)  {
     img{
@@ -25,7 +24,10 @@
     h1[id=titreP]{
         font-size: 40px;
     }
-    
+   .footer{
+    margin-top: 200px;
+ 
+   }
 }
 @media screen and (max-width: 789px)  {
     img{
@@ -37,7 +39,10 @@
     h1[id=titreP]{
         font-size: 60px;
     }
-    
+    .footer{
+        margin-top: 200px;
+    }
+   
 }
 @media screen and (max-width: 989px)  {
     img{
@@ -51,29 +56,22 @@
     h1[id=titreP]{
         font-size: 70px;
     }
-    
+    .footer{
+        margin-top: 200px;
+    }
 }
 
 @media screen and (max-width: 1499px)  {
     /* Accueil */
-    img{
-     width: 900px;
-     height: 900px;
-    }
-    #photo1{
-       width: 70%;
-        margin-top: -160px;
-        margin-bottom: -180px;
-    }
-    h1[id=titreP]{
-        font-size: 70px;
+    .titreA{
+        margin-top: 180px;
     }
     /* Tarif */
     #tarifI{
-        width: 70%;
-        height: 70%;
-        
-    }
+        width: 90%;
+        height: 80%;
+         }
+   
     /* Formulaire */
     .titre{
         font-size: 30px;
@@ -92,33 +90,12 @@
     textarea{
         padding: 45px;
     }
-    
+    .footer{
+        margin-top: 230px;
+    }
 }
-.photoP {
-    display: inline-block;
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 110px;
-    }
 
-.photoP .text {
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 10%;
-    color: rgb(98, 83, 207);
-    width: 70%;
-    }
-.photoP{
-        margin-top: 180px;
-        margin-bottom: 180px;
-       }
-    
-   img{
+img{
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -127,16 +104,26 @@
 img[class=galerie]{
     width: 400px;
 }
+#imageFront{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+  
+}
 
 body{
     text-align: center;
-    color: white;
-    background-color: black;
+    color: rgb(18, 17, 17);
+    background-color: rgb(206, 186, 186);
     }
 
 a{
     display:inline-block;
-    color: rgb(255, 255, 255);
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
     }
 
 a.nav-link{
@@ -144,16 +131,11 @@ a.nav-link{
     }
 
 svg{
-    color: rgb(255, 255, 255);
+    color: rgb(18, 17, 17);
     position: static;
     margin-top: 30px;
     margin: 10px;
 }
-
-h1{
-   font-size: 30px;
- 
-    }
 
 nav{
     font-size: 19px;
