@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: Photo-bebe
+  label: Photo-bebe
+  create: all
+  match: "**/*"
+  templates:
+  - photo
+- type: directory
   path: photo-couple
   label: photo-couple
   create: all
