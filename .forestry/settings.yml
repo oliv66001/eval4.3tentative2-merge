@@ -9,6 +9,7 @@ sections:
   label: post
   create: all
   match: post-couple
+  exclude: 'tags: couple'
   templates:
   - post-photo-couple
 - type: heading
