@@ -1,104 +1,149 @@
-@media screen and (max-width: 419px)  {
-    #titre{
-        font-size: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Lobster&family=Satisfy&family=Teko:wght@300&display=swap');
+@media (max-width: 575.98px) { 
+    
+    footer{
+        margin-top: 150px;
     }
-     /* Tarif */
-     #tarifI{
-        width: 90%;
-        height: 100%;
-         }
-         /* footer */
-   .footer{
-        margin-top: 40px;
+    .titreA{
+        font-size: 35px;
+        margin-top: 20px;
     }
-}
-@media screen and (max-width: 589px)  {
-    img{
-     width: 100%;
+     /* formulaire*/
+     input{
+        width: 100px;
+        height: 30px;
+       }
+       textarea{
+        width: 150px;
+        height: 150px;
+       }
+       button{
+        width: 100px;
+        height: 50px;
+
+       }
+   
+ }
+
+@media (max-width: 767.98px) {
+    footer{
+        margin-top: 150px;
     }
-    #photo1{
-        height: 100%;
-        
-        margin-bottom: -60px;
+    .titreA{
+        margin-top: 150px;
+        font-size: 45px;
     }
-    h1[id=titreP]{
-        font-size: 40px;
-    }
-   .footer{
-    margin-top: 200px;
+
+   input{
+    width: 150px;
  
    }
 }
-@media screen and (max-width: 789px)  {
-    img{
-     width: 100%;
-    }
-    #photo1{
-    margin-bottom: -80px;
-    }
-    h1[id=titreP]{
-        font-size: 60px;
-    }
-    .footer{
-        margin-top: 200px;
-    }
-   
-}
-@media screen and (max-width: 989px)  {
-    img{
-     width: 90%;
-    }
-    #photo1{
-        height: 80%;
-        margin-top: -140px;
-        margin-bottom: -120px;
-    }
-    h1[id=titreP]{
-        font-size: 70px;
-    }
-    .footer{
-        margin-top: 200px;
-    }
-}
 
-@media screen and (max-width: 1499px)  {
-    /* Accueil */
+@media (max-width: 991.98px) { 
+    footer{
+        margin-top: 150px;
+    }
     .titreA{
-        margin-top: 180px;
+        font-size: 55px;
+        margin-top: 150px;
     }
-    /* Tarif */
-    #tarifI{
-        width: 90%;
-        height: 80%;
-         }
-   
-    /* Formulaire */
-    .titre{
-        font-size: 30px;
-        margin: 20px;
-    }
-    form{
-        padding-top: 30px;
-        margin-top: 10px;
-    }
-    label{
-        font-size: 20px;
-    }
+
     input{
-        padding: 10px;
+        width: 180px;
+     
+       }
+       textarea{
+        width: 200px;
+        height: 50px;
+       }
+ }
+
+
+@media (max-width: 1199.98px) { 
+    footer{
+        margin-top: 80px;
     }
-    textarea{
-        padding: 45px;
+    .titreA{
+        font-size: 65px;
+        margin-top: 150px;
     }
-    .footer{
-        margin-top: 230px;
+
+    /* formulaire*/
+    input{
+        width: 200px;
+     height: 30px;
+       }
+       textarea{
+        width: 250px;
+        height: 150px;
+       }
+       button{
+        width: 180px;
+        height: 50px;
+
+       }
+ }
+
+@media (max-width: 1399.98px) { 
+    footer{
+        margin-top: 200px;
     }
+    .titreA{
+        font-size: 65px;
+        margin-top: 130px;
+    }
+    /* formulaire*/
+    input{
+        width: 200px;
+     height: 30px;
+       }
+       textarea{
+        width: 250px;
+        height: 150px;
+       }
+       button{
+        width: 180px;
+        height: 50px;
+
+       }
+}
+@media (max-width: 1699.98px) { 
+    footer{
+        margin-top: 60px;
+    }
+    .titreA{
+        font-size: 65px;
+        margin-top: 130px;
+    }
+    /* formulaire*/
+    input{
+        width: 200px;
+        height: 30px;
+       }
+       textarea{
+        width: 250px;
+        height: 150px;
+       }
+       button{
+        width: 180px;
+        height: 50px;
+
+       }
+       /* Tarif */
+       #tarifI{
+        width: 80%;
+       }
 }
 
 img{
     width: 100%;
     height: 100%;
     background-size: cover;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 2px 6px 2px rgba(0,0,0,0.32); 
+    box-shadow: 0px 10px 13px -7px #000000, 6px 2px 6px 2px rgba(0,0,0,0.32);
     } 
 
 img[class=galerie]{
@@ -112,10 +157,32 @@ img[class=galerie]{
   
 }
 
+/* titre */
+
+h1{
+    font-family: 'Satisfy', cursive;
+}
+h2{
+    font-family: 'Satisfy', cursive;
+ 
+}
+h2:hover{
+    color:#5F4B8BFF;
+}
+h3{
+    font-family: 'Satisfy', cursive;
+}
+h4{
+    font-family: 'Satisfy', cursive;
+}
+article, p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
     text-align: center;
     color: rgb(18, 17, 17);
-    background-color: rgb(206, 186, 186);
+    background-color:#E69A8DFF;
     }
 
 a{
@@ -124,10 +191,23 @@ a{
     font-weight: bold;
     font-size: 25px;
     margin-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    }
+
+
+    .nav-link:hover{
+        color:#5F4B8BFF;
+    }
+
+    #navbar{
+        margin-bottom: 30px;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
 a.nav-link{
     margin: 10px;
+    
     }
 
 svg{
@@ -135,7 +215,11 @@ svg{
     position: static;
     margin-top: 30px;
     margin: 10px;
-}
+   }
+
+   svg:hover{
+    color:#5F4B8BFF;
+   }
 
 nav{
     font-size: 19px;
@@ -145,7 +229,14 @@ nav{
     }
 
     #contact{
-        font-size: 19px;
+        font-size: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #contact:hover{
+        color:#5F4B8BFF;
+    }
+    hr{
+        color:#5F4B8BFF;
     }
     
 /*Tarif et prestation*/
@@ -153,9 +244,49 @@ nav{
     margin-bottom: 26px;
  }
 
+ /* formulaire de contact */
+
+ label{
+    font-family: 'Josefin Sans', sans-serif;
+ }
+form{
+    text-align: center;
+}
+ input, textarea{
+    border-radius: 10px;
+    text-align: center;
     
-
-  
-
-  
-
+ }
+ .btn {
+    text-decoration: none;
+    padding: 13px;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    background-color:#5F4B8BFF;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border: 1px solid #0c0c0c;
+    box-shadow: -2px 11px 16px #0f243e;
+    -webkit-box-shadow: -2px 11px 16px #0f243e;
+    -moz-box-shadow: -2px 11px 16px #0f243e;
+    }
+    
+    
+    .btn:hover {
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #5d0255;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }

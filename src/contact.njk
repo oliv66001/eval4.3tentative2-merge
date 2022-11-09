@@ -1,20 +1,20 @@
 ---
 layout: layout.njk
 ---
-<main><h1 id="titre">Formulaire de contact</h1>
+<main><h1>Formulaire de contact</h1>
 
 <div class="container-fluid">
   <div class="row">
     <div class="col">
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label id="name"  for="name">Votre nom:<br /> <input type="text" name="name"  placeholder="Votre nom" /></label>
+    <label id="name"  for="name">Votre nom:<br /> <input type="text" name="name"  placeholder="Votre nom" required /></label>
   </p>
    <p>
-    <label id="prenom"  for="prenom">Votre Prénom:<br /> <input type="text" name="prenom"  placeholder="Votre prénom" /></label>
+    <label id="prenom"  for="prenom">Votre prénom:<br /> <input type="text" name="prenom"  placeholder="Votre prénom" required/></label>
   </p>
   <p>
-    <label id="email"  for="email">Votre E-mail:<br /> <input type="email" name="email" placeholder="exemple@email.com" /></label>
+    <label id="email"  for="email">Votre e-mail:<br /> <input type="email" name="email" placeholder="exemple@email.com" required/></label>
   </p>
   <p>
     <label for="phone">Votre téléphone:<br />
@@ -23,12 +23,13 @@ layout: layout.njk
        required /></label>
   </p>
    <p>
-    <label id="message" for="message">Message:<br /> <textarea name="message" placeholder="Votre message"></textarea></label>
+    <label id="message" for="message">Message:<br /> <textarea name="message" placeholder="Votre message" required></textarea></label>
   </p>
   <p>
-    <button type="submit">Valider</button>
+    <button class="btn" type="submit">Valider</button>
   </p>
 </form>
+<h4>Les informations saisies ne serviront que pour répondre<br /> à votre demande elles ne seront pas conservées ou utilisées à d'autres fins commerciales.</h4>
 </div>
   </div>
 </div>
