@@ -5,27 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: Photo-bebe
+  path: photo-bebe
   label: Photo-bebe
   create: all
   match: "**/*"
-  templates:
-  - photo
-- type: directory
-  path: photo-couple
-  label: photo-couple
-  create: all
-  match: "**/*"
-- type: directory
-  path: blog
-  label: post
-  create: all
-  match: post-couple
-  exclude: 'tags: couple'
-  templates:
-  - post-photo-couple
-- type: heading
-  label: blog
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
