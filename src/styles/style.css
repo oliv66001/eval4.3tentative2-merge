@@ -1,145 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Lobster&family=Satisfy&family=Teko:wght@300&display=swap');
-@media (max-width: 575.98px) { 
+@media screen and (min-width: 575.98px) { 
     
-    footer{
+        footer{
         margin-top: 150px;
     }
-    .titreA{
+        .titreA{
         font-size: 35px;
         margin-top: 20px;
     }
      /* formulaire*/
-     input{
-        width: 100px;
-        height: 30px;
-       }
+        input{
+        width: 120px;
+        height: 40px;
+    }
        textarea{
         width: 150px;
         height: 150px;
-       }
+    }
        button{
         width: 100px;
         height: 50px;
 
-       }
+    }
    
  }
 
-@media (max-width: 767.98px) {
-    footer{
+@media screen and (min-width: 767.98px) {
+        footer{
         margin-top: 150px;
     }
-    .titreA{
+        .titreA{
         margin-top: 150px;
         font-size: 45px;
     }
-
-   input{
-    width: 150px;
+ /* formulaire*/
+        input{
+        width: 150px;
  
    }
 }
 
-@media (max-width: 991.98px) { 
-    footer{
+@media screen and (min-width: 991.98px) { 
+        footer{
         margin-top: 150px;
     }
-    .titreA{
+        .titreA{
         font-size: 55px;
         margin-top: 150px;
     }
-
-    input{
+     /* formulaire*/
+        input{
         width: 180px;
      
-       }
+    }
        textarea{
         width: 200px;
         height: 50px;
-       }
+    }
  }
 
 
-@media (max-width: 1199.98px) { 
-    footer{
+@media screen and (min-width: 1199.98px) { 
+        footer{
         margin-top: 80px;
     }
-    .titreA{
+        .titreA{
         font-size: 65px;
         margin-top: 150px;
     }
 
     /* formulaire*/
-    input{
-        width: 200px;
-     height: 30px;
-       }
-       textarea{
-        width: 250px;
-        height: 150px;
-       }
-       button{
-        width: 180px;
-        height: 50px;
-
-       }
- }
-
-@media (max-width: 1399.98px) { 
-    footer{
-        margin-top: 200px;
-    }
-    .titreA{
-        font-size: 65px;
-        margin-top: 130px;
-    }
-    /* formulaire*/
-    input{
-        width: 200px;
-     height: 30px;
-       }
-       textarea{
-        width: 250px;
-        height: 150px;
-       }
-       button{
-        width: 180px;
-        height: 50px;
-
-       }
-}
-@media (max-width: 1699.98px) { 
-    footer{
-        margin-top: 60px;
-    }
-    .titreA{
-        font-size: 65px;
-        margin-top: 130px;
-    }
-    /* formulaire*/
-    input{
+        input{
         width: 200px;
         height: 30px;
-       }
+    }
        textarea{
         width: 250px;
         height: 150px;
-       }
+    }
        button{
         width: 180px;
         height: 50px;
 
-       }
-       /* Tarif */
+    }
+ }
+
+@media screen and (min-width: 1399.98px) { 
+       footer{
+        margin-top: 200px;
+    }
+       .titreA{
+        font-size: 65px;
+        margin-top: 130px;
+    }
+    /* tarifs */
        #tarifI{
         width: 80%;
-       }
+        height: 70%;
+    }
+    /* formulaire*/
+      input{
+        width: 200px;
+        height: 30px;
+    }
+       textarea{
+        width: 250px;
+        height: 150px;
+    }
+       button{
+        width: 180px;
+        height: 50px;
+
+    }
 }
+@media screen and (min-width: 1699.98px) { 
+       footer{
+        margin-top: 60px;
+    }
+       .titreA{
+        font-size: 65px;
+        margin-top: 130px;
+    }
+    /* tarifs */
+       #tarifI{
+        width: 80%;
+        height: 70%;
+    }
+    /* formulaire*/
+       input{
+        width: 200px;
+        height: 30px;
+    }
+       textarea{
+        width: 250px;
+        height: 150px;
+    }
+       button{
+        width: 180px;
+        height: 50px;
+
+    }
+      
+}
+
+
+/* Images */
 
 img{
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     border-radius: 10px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 2px 6px 2px rgba(0,0,0,0.32); 
@@ -175,6 +185,8 @@ h3{
 h4{
     font-family: 'Satisfy', cursive;
 }
+
+/* Layout */
 article, p{
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -195,12 +207,12 @@ a{
     text-decoration: none;
     }
 
-
-    .nav-link:hover{
+/* Navbar */
+.nav-link:hover{
         color:#5F4B8BFF;
     }
 
-    #navbar{
+#navbar{
         margin-bottom: 30px;
         font-family: 'Josefin Sans', sans-serif;
     }
@@ -209,7 +221,13 @@ a.nav-link{
     margin: 10px;
     
     }
-
+nav{
+        font-size: 19px;
+        height: 60px;
+        text-align: center;
+        line-height: 20px;
+        }
+/* Footer */
 svg{
     color: rgb(18, 17, 17);
     position: static;
@@ -217,47 +235,40 @@ svg{
     margin: 10px;
    }
 
-   svg:hover{
+svg:hover{
     color:#5F4B8BFF;
    }
-
-nav{
-    font-size: 19px;
-    height: 60px;
-    text-align: center;
-    line-height: 20px;
-    }
-
-    #contact{
+#contact{
         font-size: 25px;
         font-family: 'Josefin Sans', sans-serif;
     }
-    #contact:hover{
+#contact:hover{
         color:#5F4B8BFF;
     }
-    hr{
-        color:#5F4B8BFF;
+hr{
+        height: 1px;
+        background-color:#5F4B8BFF;
     }
     
 /*Tarif et prestation*/
- .tarif{
+.tarif{
     margin-bottom: 26px;
  }
 
  /* formulaire de contact */
 
- label{
+label{
     font-family: 'Josefin Sans', sans-serif;
  }
 form{
     text-align: center;
 }
- input, textarea{
+input, textarea{
     border-radius: 10px;
     text-align: center;
     
  }
- .btn {
+.btn {
     text-decoration: none;
     padding: 13px;
     font-family: 'Satisfy', cursive;
@@ -274,8 +285,7 @@ form{
     -moz-box-shadow: -2px 11px 16px #0f243e;
     }
     
-    
-    .btn:hover {
+.btn:hover {
     padding: 10px;
     font-family: 'Satisfy', cursive;
     font-weight: bold;
