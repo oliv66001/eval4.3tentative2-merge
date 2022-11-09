@@ -12,4 +12,4 @@ fields:
     maxSize: 64
   label: photo-couple
 pages:
-- 'tags: couple/photoTestCouple.md'
+- blog/photoTestCouple.md
