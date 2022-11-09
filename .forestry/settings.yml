@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: blog
+  label: post
+  create: all
+  match: "**/*"
 - type: heading
   label: blog
 upload_dir: uploads
