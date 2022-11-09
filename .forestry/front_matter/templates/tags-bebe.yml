@@ -2,11 +2,11 @@
 label: 'tags: bebe'
 hide_body: true
 fields:
-- name: photo-bebe1
+- name: bebe
   type: tag_list
   default:
   - bebe
-  label: photo-bebe1
+  label: tags
 - name: photo-bebe
   type: file
   config:
