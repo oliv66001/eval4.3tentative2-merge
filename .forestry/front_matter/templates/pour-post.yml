@@ -4,6 +4,7 @@ hide_body: false
 fields:
 - name: tags
   type: tag_list
-  default: []
+  default:
+  - bebe
   label: tags bebe
   description: inclure le tags de la photo
