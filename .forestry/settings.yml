@@ -5,7 +5,7 @@ admin_path: https://github.com/oliv66001/eval4.3tentative2-merge
 webhook_url: 
 sections:
 - type: directory
-  path: photo-bebe
+  path: https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images
   label: Photo-bebe
   create: all
   match: eval4.3tentative2-merge/_site/images/bébé
