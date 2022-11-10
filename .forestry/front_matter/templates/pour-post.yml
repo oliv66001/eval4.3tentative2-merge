@@ -1,4 +1,9 @@
 ---
 label: pour post
 hide_body: false
-fields: []
+fields:
+- name: tags
+  type: tag_list
+  default: []
+  label: tags bebe
+  description: inclure le tags de la photo
