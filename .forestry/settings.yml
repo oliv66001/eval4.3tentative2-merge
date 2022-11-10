@@ -9,6 +9,8 @@ sections:
   label: Photo-bebe
   create: all
   match: "'**/*'"
+  templates:
+  - page
 upload_dir: https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images
 public_path: _site
 front_matter_path: ''
