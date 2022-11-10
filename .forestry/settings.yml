@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: https://github.com/oliv66001/eval4.3tentative2-merge
 webhook_url: 
 sections:
+- type: document
+  path: _site/blog
+  label: post-photo-bebe
+  match: "**/*"
 - type: directory
   path: _site/blog
   label: Photo-bebe
