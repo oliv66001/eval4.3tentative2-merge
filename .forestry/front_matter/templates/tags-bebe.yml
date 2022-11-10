@@ -2,9 +2,6 @@
 label: tags bebe
 hide_body: true
 fields:
-- type: list
-  name: photo-bebe1
-  label: photo-bebe1
 - type: file
-  name: photo-bebe
-  label: photo-bebe
+  name: bebe
+  label: bebe
