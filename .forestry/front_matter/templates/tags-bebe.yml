@@ -5,3 +5,5 @@ fields:
 - type: file
   name: bebe
   label: bebe
+pages:
+- https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images/bebetest.md
