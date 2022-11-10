@@ -1,4 +1,9 @@
 ---
 label: pour post
 hide_body: false
-fields: []
+fields:
+- name: post
+  type: file
+  config:
+    maxSize: 64
+  label: post
