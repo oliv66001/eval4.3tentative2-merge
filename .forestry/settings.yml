@@ -9,8 +9,8 @@ sections:
   label: Photo-bebe
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images
+public_path: _site
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:, :tags:"
