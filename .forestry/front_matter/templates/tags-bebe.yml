@@ -1,7 +1,0 @@
----
-label: tags bebe
-hide_body: true
-fields:
-- type: file
-  name: bebe
-  label: bebe
