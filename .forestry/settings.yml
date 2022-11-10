@@ -5,10 +5,10 @@ admin_path: https://github.com/oliv66001/eval4.3tentative2-merge
 webhook_url: 
 sections:
 - type: directory
-  path: https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images
+  path: _site/blog
   label: Photo-bebe
   create: all
-  match: eval4.3tentative2-merge/_site/images/bébé
+  match: "'**/*'"
 upload_dir: https://github.com/oliv66001/eval4.3tentative2-merge/tree/master/_site/images
 public_path: _site
 front_matter_path: ''
