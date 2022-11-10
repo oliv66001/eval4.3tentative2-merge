@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _site/blog
   label: post-photo-bebe
-  match: "**/*"
 - type: directory
   path: _site/blog
   label: Photo-bebe
