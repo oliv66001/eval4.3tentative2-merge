@@ -19,6 +19,7 @@ const getDirectusClient = async () => {
   return directus;
 };*/
 
+require('dotenv').config();
 
 module.exports = function (eleventyConfig) {
 // blogposts collection
