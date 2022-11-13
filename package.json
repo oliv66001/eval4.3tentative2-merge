@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
+     "instant_preview_command": "npm run develop",
+    "preview_output_directory": "site",
     "watch": "eleventy --watch",
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "develop": "eleventy --serve"
   },
   "repository": {
     "type": "git",
