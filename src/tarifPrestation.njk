@@ -11,8 +11,11 @@ layout: layout.njk
          <div class="col">
          <main>
    <h1 id="titre">Tarifs et prestations</h1>
-
-   <img class="img-fluid" id="tarifI" src="/images/Tableau tarif.jpg" width="100%" height="100%" alt="Tableau Tarifs et prestation">
+ {% for post in collections.tarif %}
+     <img id="tarifI" class="img-fluid"  width="100%" height="100%" alt="Tableau Tarifs et prestations" src="{{ '/images/Tableau tarif.jpg' | url }}" >{{ post.data.title }}
+    {% endfor %}
+   
+   
    <article>
    <h3>Choisissez votre prestation</h3>
    <hr>
