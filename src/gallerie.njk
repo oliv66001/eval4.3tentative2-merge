@@ -14,7 +14,7 @@ layout: layout.njk
      
  
 =======
-      {{ contentful }}
+
 
 >>>>>>> 1d7fee00771fd24ac4196984d1f451c685825814
      {% for post in collections.mariage %}
@@ -42,17 +42,7 @@ layout: layout.njk
   {% for post in collections.couple %}
         <a href="{{ post.url | url }}">{{ post.data.title }}<h2>Photo couple</h2>{% endfor %}<img class="img-fluid galerie" src="/images/CharlesCantinphotocouple.jpg" alt="Voir le book photo de mariage"></a>
 
-      <!--  {% set blogposts = collections.blogposts | reverse %}
-{% for entry in blogposts %}
-  {% if loop.first %}<ul>{% endif %}
-    <article>
-      <h2><a href="{{ entry.url }}">{{ entry.data.title }}</a></h2>
-      <p>{{ entry.data.intro }}</p>
-    </article>
-  {% if loop.last %}</ul>{% endif %}
-{% else %}
-  <p>No blogposts found</p>
-{% endfor %}-->
+      
   
     </div>
   </div>
