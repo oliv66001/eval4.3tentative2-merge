@@ -1,0 +1,9 @@
+---
+label: bebe
+hide_body: false
+fields:
+- name: bebe
+  type: file
+  config:
+    maxSize: 64
+  label: bebe
