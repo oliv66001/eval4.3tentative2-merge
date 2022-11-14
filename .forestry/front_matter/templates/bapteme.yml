@@ -1,0 +1,9 @@
+---
+label: bapteme
+hide_body: false
+fields:
+- name: bapteme
+  type: file
+  config:
+    maxSize: 64
+  label: bapteme
