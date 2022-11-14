@@ -6,15 +6,19 @@ layout: layout.njk
     <title>Charles Cantin - Photographe - Tarifs et prestations </title>
  </head>
 
-      <div class="container" >
+      <div class="container">
       <div class="row">
          <div class="col">
          <main>
    <h1 id="titre">Tarifs et prestations</h1>
- {% for post in collections.tarif %}
-     <img id="tarifI" class="img-fluid"  width="100%" height="100%" alt="Tableau Tarifs et prestations" src="{{ '/images/Tableau tarif.jpg' | url }}" >{{ post.data.title }}
-    {% endfor %}
    
+ 
+
+
+<div>
+ {% for post in collections.tarif %}
+     <a href= "{{ post.url | url }}" >{{ post.data.title }}<h2>Tableau<br /> des tarifs et prestations</h2>
+    {% endfor %}<div class="text-center"><button class=btn>Cliquer ici!</button></div></a></div>
    
    <article>
    <h3>Choisissez votre prestation</h3>

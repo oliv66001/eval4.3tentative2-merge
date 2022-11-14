@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Lobster&family=Satisfy&family=Teko:wght@300&display=swap');
+
 @media screen and (min-width: 575.98px) { 
     
         footer{
@@ -67,8 +68,14 @@
     }
         .titreA{
         font-size: 65px;
-        margin-top: 150px;
+        margin-top: 100px;
     }
+    /* Tarif*/
+    h1, #titre{
+        font-size: 65px;
+        padding-top: 60px;
+    }
+
 
     /* formulaire*/
         input{
@@ -88,16 +95,20 @@
 
 @media screen and (min-width: 1399.98px) { 
        footer{
-        margin-top: 200px;
+        margin-top: 30px;
     }
        .titreA{
-        font-size: 65px;
-        margin-top: 130px;
+        font-size: 55px;
+        margin-top: 80px;
     }
     /* tarifs */
        #tarifI{
         width: 80%;
         height: 70%;
+    }
+    h1, #titre{
+        font-size: 65px;
+        padding-top: 80px;
     }
     /* formulaire*/
       input{
@@ -127,6 +138,10 @@
         width: 80%;
         height: 70%;
     }
+      h1,  #titre{
+        font-size: 65px;
+        padding-top: 80px;
+    }
     /* formulaire*/
        input{
         width: 200px;
@@ -139,11 +154,8 @@
        button{
         width: 180px;
         height: 50px;
-
     }
-      
 }
-
 
 /* Images */
 
@@ -164,21 +176,20 @@ img[class=galerie]{
     background-size: cover;
     background-position: center center;
     color: black;
-  
 }
 
 /* titre */
 
 h1{
     font-family: 'Satisfy', cursive;
-    margin-top: 50px;
+    padding-top: 100px;
 }
 h2{
     font-family: 'Satisfy', cursive;
  
 }
 h2:hover{
-    color:#5F4B8BFF;
+    color:#5758BB;
 }
 h3{
     font-family: 'Satisfy', cursive;
@@ -190,12 +201,15 @@ h4{
 /* Layout */
 article, p{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    line-height: 1.6em;
+    font-weight: bold;
 }
 
 body{
     text-align: center;
     color: rgb(18, 17, 17);
-    background-color:#E69A8DFF;
+    background: linear-gradient(#FDA7DF, #D980FA, #FDA7DF, #D980FA);
     }
 
 a{
@@ -204,17 +218,22 @@ a{
     font-weight: bold;
     font-size: 25px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-decoration: none;
     }
 
+    /* Page galerie*/
+   #titreG{
+    margin: -30px 0 -70px 0;
+   }
+
 /* Navbar */
 .nav-link:hover{
-        color:#5F4B8BFF;
+        color:#5758BB;
     }
 
 #navbar{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-family: 'Josefin Sans', sans-serif;
     }
 
@@ -224,51 +243,60 @@ a.nav-link{
     }
 nav{
         font-size: 19px;
-        height: 60px;
+        height: 45px;
         text-align: center;
         line-height: 20px;
+        touch-action: auto;
         }
+
 /* Footer */
+
+#footer{
+    height: 0px ;
+    }
+
 svg{
     color: rgb(18, 17, 17);
     position: static;
-    margin-top: 30px;
     margin: 10px;
    }
 
 svg:hover{
-    color:#5F4B8BFF;
+    color:#5758BB;
    }
 #contact{
         font-size: 25px;
         font-family: 'Josefin Sans', sans-serif;
+        
     }
 #contact:hover{
-        color:#5F4B8BFF;
+        color:#5758BB;
     }
 hr{
         height: 1px;
-        background-color:#5F4B8BFF;
+        background-color:#5758BB;
     }
     
 /*Tarif et prestation*/
-.tarif{
-    margin-bottom: 26px;
- }
+h1[id=titre]{
+    margin-top: -100px;
+}
 
  /* formulaire de contact */
 
 label{
     font-family: 'Josefin Sans', sans-serif;
- }
+    }
+
 form{
     text-align: center;
-}
+    }
+
 input, textarea{
     border-radius: 10px;
     text-align: center;
-    
- }
+    }
+
 .btn {
     text-decoration: none;
     padding: 13px;
@@ -276,7 +304,7 @@ input, textarea{
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    background-color:#5F4B8BFF;
+    background-color:#5758BB;
     border-radius: 13px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -300,4 +328,8 @@ input, textarea{
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
+    }
+    .btn:active {
+        position:relative;
+        top:1px;
     }
