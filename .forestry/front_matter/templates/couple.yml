@@ -7,3 +7,5 @@ fields:
   config:
     maxSize: 64
   label: couple
+pages:
+- blog/couple/couple.md
