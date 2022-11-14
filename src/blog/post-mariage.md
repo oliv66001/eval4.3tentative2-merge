@@ -12,7 +12,7 @@ categories:
 ---
 # Photo de mariage
 
-![mariage](/images/mariage/bride-g5f1c72416_1920%20(1).webp)
+![mariage](/images/mariage/bride-g5f1c72416_1920%20(1).webp)![](/images/bride-gd197696f2_1920.jpg)
 ![mariage](/images/mariage/bride-gf021ff796_1920.webp)
 ![mariage](/images/mariage/couple-g5f6fa9c4e_1920.webp)![](/images/wedding-g89a60e2f2_1920.jpg)
 ![mariage](/images/mariage/couple-g46bd37a29_1920.webp)
