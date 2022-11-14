@@ -1,0 +1,9 @@
+---
+label: tarif
+hide_body: false
+fields:
+- name: tarif
+  type: file
+  config:
+    maxSize: 64
+  label: tarif
