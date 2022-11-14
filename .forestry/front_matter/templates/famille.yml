@@ -1,4 +1,9 @@
 ---
 label: famille
 hide_body: false
-fields: []
+fields:
+- name: famille
+  type: file
+  config:
+    maxSize: 64
+  label: famille
