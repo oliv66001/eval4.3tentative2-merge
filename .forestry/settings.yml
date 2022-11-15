@@ -9,7 +9,7 @@ sections:
   label: index
   create: all
   match: "**/*"
-  new_doc_ext: ".njk"
+  new_doc_ext: njk
 - type: directory
   path: src/blog
   label: blog
