@@ -182,6 +182,9 @@ img[class=galerie]{
    }
 
 #imageFront {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #000000;
      }
 
