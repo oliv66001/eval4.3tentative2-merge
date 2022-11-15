@@ -5,8 +5,8 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
-  path: index
-  label: index
+  path: src/index.njk
+  label: écran page d'accueil
   create: all
   match: "**/*"
   new_doc_ext: njk
