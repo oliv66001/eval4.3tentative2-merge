@@ -4,6 +4,12 @@ auto_deploy: true
 admin_path: "/.forestry/"
 webhook_url: ''
 sections:
+- type: directory
+  path: src/gallerie
+  label: galerie
+  create: all
+  match: "**/*"
+  new_doc_ext: ".njk"
 - type: document
   path: src/blog
   label: accueil
