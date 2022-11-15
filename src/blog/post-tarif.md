@@ -10,4 +10,4 @@ categories:
 - Eleventy
 
 ---
-![](/images/sans-titre-2.jpg)
+![](/images/ok.jpg)
