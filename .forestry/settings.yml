@@ -6,7 +6,7 @@ webhook_url: ''
 sections:
 - type: directory
   path: src/index.njk
-  label: écran page d'accueil
+  label: écran accueil
   create: all
   match: "**/*"
   new_doc_ext: njk
