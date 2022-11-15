@@ -12,4 +12,4 @@ categories:
 ---
 # Photo de famille
 
-![](/images/portrait/woman-ga853b5f70_1920.jpg)
+![](/images/portrait/woman-gbf89c5098_1920.jpg)
