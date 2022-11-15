@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: "/.forestry/"
 webhook_url: ''
 sections:
+- type: document
+  path: src/index.njk
+  label: index
 - type: directory
   path: src/blog
   label: blog
