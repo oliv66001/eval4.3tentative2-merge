@@ -1,4 +1,9 @@
 ---
 label: portrait
 hide_body: false
-fields: []
+fields:
+- name: portrait
+  type: file
+  config:
+    maxSize: 64
+  label: portrait
