@@ -1,6 +1,5 @@
 ---
 tags: accueil
-#permalink: "blog/{{ page.fileSlug }}/index.njk",
 categories:
 - front-end
 - Jamstack
@@ -9,18 +8,8 @@ categories:
 ---
 # Charles Cantin<br />Photographe
 
-<style>
-    body{
-     background-image: url(images/mariage1900.jpg);
-     background-size: cover;
-     background-position: center;
-     background-attachment: fixed;
-     
+<style> body{ background-image : url(images/mariage1900.jpg); taille de fond : couverture ; position d'arrière-plan : centre ; pièce jointe en arrière-plan : fixe ;
+
      }
+
 </style>
-
-
-
-
-
-
