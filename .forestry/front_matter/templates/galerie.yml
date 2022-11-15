@@ -8,4 +8,5 @@ fields:
     maxSize: 64
   label: gallerie
 pages:
+- src/blog/galerie/bebe-galerie.md
 - src/blog/galerie/famille-galerie.md
