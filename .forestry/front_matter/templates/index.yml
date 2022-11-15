@@ -1,4 +1,9 @@
 ---
 label: index
 hide_body: false
-fields: []
+fields:
+- name: index
+  type: file
+  config:
+    maxSize: 64
+  label: index
