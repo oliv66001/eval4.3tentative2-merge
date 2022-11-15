@@ -1,5 +1,3 @@
-
-
 module.exports = function (eleventyConfig) {
 // blogposts collection
  
@@ -7,7 +5,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/blog/*.md");
   });
 
+  
+
     // copy files
+    
     eleventyConfig.addPassthroughCopy("./src/blog/");
     eleventyConfig.addPassthroughCopy("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/styles/");
@@ -22,4 +23,13 @@ module.exports = function (eleventyConfig) {
     };
   };
 
+  const Image = require("@11ty/eleventy-img");
 
+  (async () => {
+    let url = "./src/images/mariage1900.jpg";
+    let stats = await Image(url, {
+      widths: ['auto']
+    });
+  
+    console.log( stats );
+  })();
