@@ -11,5 +11,3 @@ fields:
     schema:
       format: markdown
   label: accueil
-pages:
-- index.njk/index/index.njk
