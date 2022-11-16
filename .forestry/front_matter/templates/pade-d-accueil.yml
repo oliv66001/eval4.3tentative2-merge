@@ -2,8 +2,8 @@
 label: pade d'accueil
 hide_body: true
 fields:
-- name: index
-  type: file
-  config:
-    maxSize: 64
-  label: index
+- name: changer_l_image_page_d_accueil
+  type: include
+  config: {}
+  template: pade-d-accueil
+  label: changer l'image page d'accueil
