@@ -11,11 +11,11 @@ sections:
   match: "**/*"
   new_doc_ext: njk
 - type: directory
-  path: src/gallerie
+  path: src/gallerie.njk
   label: galerie
   create: all
   match: "**/*"
-  new_doc_ext: njk
+  new_doc_ext: ".njk"
 - type: document
   path: src/index.njk
   label: accueil
