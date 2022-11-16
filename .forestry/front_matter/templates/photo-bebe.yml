@@ -1,4 +1,9 @@
 ---
 label: photo-bebe
 hide_body: false
-fields: []
+fields:
+- name: photo-bebe
+  type: file
+  config:
+    maxSize: 64
+  label: photo-bebe
