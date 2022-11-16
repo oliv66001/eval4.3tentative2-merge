@@ -10,6 +10,10 @@
         font-size: 35px;
         margin-top: 40px;
     }
+    /* tarif */
+    #tarifI{
+        width: 550px;
+    }
      /* formulaire*/
         input{
         width: 120px;
@@ -50,6 +54,21 @@
         font-size: 55px;
         margin-top: 140px;
     }
+    /* Galerie */
+    #mariage{
+        width: 559px;
+        height: 440px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+     }
+    #bebe{
+        width: 559px;
+        height: 440px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
      /* formulaire*/
         input{
         width: 180px;
@@ -71,9 +90,25 @@
         margin-top: 70px;
     }
     /* Tarif*/
+    
     h1, #titre{
         font-size: 65px;
         padding-top: 60px;
+    }
+    /* Galerie */
+    #mariage{
+        width: 459px;
+        height: 340px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+     }
+#bebe{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
     }
 
 
@@ -103,12 +138,31 @@
     }
     /* tarifs */
        #tarifI{
-        width: 80%;
-        height: 70%;
+        width: 500px;
+        height: 400px;
+        border-radius: 8px;
+        background-size: cover;
+        
     }
+    
     h1, #titre{
         font-size: 65px;
         padding-top: 80px;
+    }
+    /* Galerie */
+    #mariage{
+        width: 559px;
+        height: 440px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+     }
+    #bebe{
+        width: 559px;
+        height: 440px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
     }
     /* formulaire*/
       input{
@@ -134,10 +188,7 @@
         margin-top: 130px;
     }
     /* tarifs */
-       #tarifI{
-        width: 80%;
-        height: 70%;
-    }
+       
       h1,  #titre{
         font-size: 65px;
         padding-top: 80px;
@@ -171,13 +222,70 @@ img[class=galerie]{
     width: 400px;
 }
 
-#imageFront {
-    background-size: cover;
+
+
+#tarifFront, #imageFront {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #1B1464;
+    color:black;
      }
+
+#mariage{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+     }
+#bebe{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#grossesse{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#bapteme{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#famille{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#couple{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#portrait{
+        width: 359px;
+        height: 240px;
+        border-radius: 8px;
+        background-size: cover;
+        color:#B53471;
+    }
+#tarifI{
+        width: 359px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+       }
 
 /* titre */
 
@@ -228,7 +336,7 @@ a{
     }
 
     /* Page galerie*/
-   #titreG{
+#titreG{
     margin: -30px 0 -70px 0;
    }
 
@@ -311,7 +419,7 @@ input, textarea{
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     font-size: 20px;
-    color: #1B1464;
+    color:#B53471;
     background-color:#5758BB;
     border-radius: 13px;
     -webkit-border-radius: 13px;
