@@ -23,15 +23,6 @@ module.exports = function (eleventyConfig) {
     };
   };
 
-  const Image = require("@11ty/eleventy-img");
 
-  (async () => {
-    let url = "./src/images/mariage1900.jpg";
-    let stats = await Image(url, {
-      widths: ['auto']
-    });
-  
-    console.log( stats );
-  })();
 
   
