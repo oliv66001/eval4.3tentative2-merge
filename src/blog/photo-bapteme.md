@@ -1,1 +1,4 @@
-<style> #bapteme { background-image: url(/images/CharlesCantinphotoBapt%C3%A8me.jpg); }  </style>
+---
+
+---
+>     <style> #bapteme { background-image: url(/images/bapteme%202%20500.jpg); }  </style>
