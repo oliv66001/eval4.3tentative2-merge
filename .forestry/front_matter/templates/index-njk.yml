@@ -2,7 +2,12 @@
 label: index.njk
 hide_body: false
 fields:
-- name: index_njk
-  type: tag_list
-  default: []
-  label: index.njk
+- name: accueil
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: accueil
