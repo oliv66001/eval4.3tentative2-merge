@@ -5,18 +5,6 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
-  path: src/index.njk
-  label: index.njk
-  create: all
-  match: "**/*"
-  new_doc_ext: njk
-- type: directory
-  path: src/gallerie.njk
-  label: galerie
-  create: all
-  match: "**/*"
-  new_doc_ext: njk
-- type: directory
   path: src/blog
   label: blog
   create: all
