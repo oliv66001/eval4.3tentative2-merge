@@ -3,7 +3,6 @@ label: index.njk
 hide_body: false
 fields:
 - name: index_njk
-  type: file
-  config:
-    maxSize: 64
+  type: tag_list
+  default: []
   label: index.njk
