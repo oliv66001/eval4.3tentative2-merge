@@ -1,9 +1,9 @@
 ---
-label: pade d'accueil
-hide_body: true
+label: page d'accueil
+hide_body: false
 fields:
-- name: index
-  type: file
+- name: index_njk
+  type: text
   config:
-    maxSize: 64
-  label: index
+    required: false
+  label: index.njk
