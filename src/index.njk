@@ -1,21 +1,23 @@
 ---
 layout: layout.njk
+post-accueil: post-accueil.md
 ---
+
 <meta name="description" content="photographe réalise pour vous des photographies de mariage, Grossesse, Bébé, Famille, Baptême, Couple">
    
     <title>Charles Cantin - Photographe - Indépendant </title>
  </head>
 
- <body id="imageFront" href="{{ post.url | url }}"{{ post.data.title }}>
+ <body>
 
  <style>
  
     body {
-     background-image: url(/images/mariage1900.jpg);
+    
      }
     </style>
       
-
+{% include "src/blog/post-accueil.md" ignore missing %}
     <main>
         <div class="text-center">
               <h1 class="titreA">Charles Cantin<br />Photographe</h1>

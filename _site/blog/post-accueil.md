@@ -1,11 +1,3 @@
----
-tags: accueil
-#permalink: "blog/{{ page.fileSlug }}/index.njk",
-categories:
-- front-end
-- Jamstack
-- Eleventy
----
 <style>
     body {
      background-image: url(/images/mariage1900.jpg);
@@ -15,11 +7,6 @@ categories:
      }
      h1{
         padding-top: 30px;
-     }
+    }
+
 </style>
-
-
-
-
-
-
