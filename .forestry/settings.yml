@@ -11,7 +11,7 @@ sections:
   match: "**/*"
   new_doc_ext: njk
 - type: document
-  path: src/blog
+  path: src/index.njk
   label: accueil
 - type: directory
   path: src/blog
