@@ -9,7 +9,7 @@ sections:
   label: index.njk
   create: all
   match: "**/*"
-  new_doc_ext: njk
+  new_doc_ext: ".njk"
 - type: directory
   path: src/gallerie
   label: galerie
