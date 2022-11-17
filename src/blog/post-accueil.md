@@ -1,1 +1,5 @@
-<style> body { background-image: url(/images/couple-ga4623177d_1920.jpg); } </style>
+---
+image-accueil: ''
+
+---
+    <style> body { background-image: url(/images/mariage1900.jpg); } </style>
