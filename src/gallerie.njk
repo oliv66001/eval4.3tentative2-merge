@@ -14,34 +14,34 @@ layout: layout.njk
 
      {% for post in collections.mariage %}
      <a  href= "{{ post.url | url }}" >{{ post.data.title }}<div id="mariage"><div><h2>Photo mariage</h2></div>
-    {% endfor %}{% include "src/blog/photo-mariage.html" ignore missing %}</div></a>
+    {% endfor %}{% include "src/blog/photo-mariage.md" ignore missing %}</div></a>
    
     {% for post in collections.bebe %}
-      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="bebe"><div><h2>Photo bébé</h2></div>{% endfor %}{% include "src/blog/photo-bebe.html" ignore missing %}</div></a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="bebe"><div><h2>Photo bébé</h2></div>{% endfor %}{% include "src/blog/photo-bebe.md" ignore missing %}</div></a>
     </div>
   </div>
   <div class="row">
     <div class="col">
   {% for post in collections.grossesse %}
-      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="grossesse"><div><h2>Photo grossesse</h2></div>{% endfor %}{% include "src/blog/photo-grossesse.html" ignore missing %}</div></a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="grossesse"><div><h2>Photo grossesse</h2></div>{% endfor %}{% include "src/blog/photo-grossesse.md" ignore missing %}</div></a>
 
       {% for post in collections.bapteme %}
-      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="bapteme"><div><h2>Photo baptème</h2></div>{% endfor %}{% include "src/blog/photo-bapteme.html" ignore missing %}</div></a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="bapteme"><div><h2>Photo baptème</h2></div>{% endfor %}{% include "src/blog/photo-bapteme.md" ignore missing %}</div></a>
   </div>
     </div>
     <div class="row">
     <div class="col">
     {% for post in collections.famille %}
-      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="famille"><div><h2>Photo famille</h2></div>{% endfor %} {% include "src/blog/photo-famille.html" ignore missing %}</div></a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="famille"><div><h2>Photo famille</h2></div>{% endfor %} {% include "src/blog/photo-famille.md" ignore missing %}</div></a>
   
   {% for post in collections.couple %}
-        <a href="{{ post.url | url }}">{{ post.data.title }}<div id="couple"><div><h2>Photo couple</h2></div>{% endfor %}{% include "src/blog/photo-couple.html" ignore missing %}</div></a>
+        <a href="{{ post.url | url }}">{{ post.data.title }}<div id="couple"><div><h2>Photo couple</h2></div>{% endfor %}{% include "src/blog/photo-couple.md" ignore missing %}</div></a>
     </div>
   </div>
   <div class="row">
     <div class="col">
     {% for post in collections.portrait %}
-      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="portrait"><div><h2>Photo portrait</h2></div>{% endfor %} {% include "src/blog/photo-portrait.html" ignore missing %}</div></a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}<div id="portrait"><div><h2>Photo portrait</h2></div>{% endfor %} {% include "src/blog/photo-portrait.md" ignore missing %}</div></a>
     </div>
   </div>
 
