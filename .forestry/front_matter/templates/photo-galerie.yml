@@ -15,5 +15,3 @@ fields:
       path: 
   label: photo-gallerietest4
   hidden: true
-pages:
-- src/blog/photo-bebe.md
