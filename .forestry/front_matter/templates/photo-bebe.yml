@@ -7,3 +7,7 @@ fields:
   config:
     maxSize: 64
   label: photo-bebe
+- name: photo-bebe1
+  type: tag_list
+  default: []
+  label: photo-bebe1
