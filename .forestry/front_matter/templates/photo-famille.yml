@@ -6,3 +6,5 @@ fields:
   type: tag_list
   default: []
   label: photo
+pages:
+- src/blog/photo-bebe.md
