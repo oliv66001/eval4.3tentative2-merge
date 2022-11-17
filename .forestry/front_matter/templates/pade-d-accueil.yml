@@ -1,4 +1,9 @@
 ---
 label: page d'accueil
 hide_body: false
-fields: []
+fields:
+- name: image-accueil
+  type: file
+  config:
+    maxSize: 64
+  label: image-accueil
