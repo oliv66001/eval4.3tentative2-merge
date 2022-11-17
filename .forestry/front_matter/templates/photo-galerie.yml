@@ -1,4 +1,11 @@
 ---
 label: photo-galerie
 hide_body: false
-fields: []
+fields:
+- name: couple
+  type: blocks
+  label: couple
+  template_types: []
+  config:
+    min: 
+    max: 
