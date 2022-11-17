@@ -7,3 +7,5 @@ fields:
   config:
     maxSize: 64
   label: image-accueil
+pages:
+- src/blog/post-accueil.md
