@@ -2,11 +2,10 @@
 label: page d'accueil
 hide_body: true
 fields:
-- name: titre_de_la_page
-  type: include
-  config: {}
-  template: pade-d-accueil
-  label: Titre de la page
+- name: image
+  type: tag_list
+  default: []
   hidden: true
+  label: image
 pages:
 - src/blog/post-accueil.md
