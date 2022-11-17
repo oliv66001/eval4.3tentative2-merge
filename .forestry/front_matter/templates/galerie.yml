@@ -1,9 +1,0 @@
----
-label: galerie
-hide_body: false
-fields:
-- name: src/gallerie
-  type: file
-  config:
-    maxSize: 64
-  label: gallerie
