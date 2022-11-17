@@ -2,10 +2,14 @@
 label: page d'accueil
 hide_body: false
 fields:
-- name: image-accueil
-  type: file
+- name: date_de_publication
+  type: datetime
+  description: ''
   config:
-    maxSize: 64
-  label: image-accueil
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  label: date de publication
 pages:
 - src/blog/post-accueil.md
