@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: photo-gallerie test1
+pages:
+- src/blog/photo-bebe.md
