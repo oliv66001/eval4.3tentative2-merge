@@ -2,22 +2,12 @@
 label: page d'accueil
 hide_body: true
 fields:
-- name: image
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: image
 - name: titre_de_la_page
-  type: number
+  type: blocks
   label: Titre de la page
-  description: ''
-  default: 0
-  required: true
+  template_types: []
   config:
     min: 
     max: 
-    step: 
 pages:
 - src/blog/post-accueil.md
