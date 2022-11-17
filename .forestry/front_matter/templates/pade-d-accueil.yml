@@ -1,19 +1,6 @@
 ---
 label: page d'accueil
 hide_body: false
-fields:
-- name: date_de_publication
-  type: datetime
-  description: ''
-  config:
-    required: false
-    date_format: DD/MM/YYYY
-    time_format: 
-    display_utc: false
-  label: date de publication
-- name: phototest4
-  type: field_group
-  config: {}
-  label: phototest4
+fields: []
 pages:
 - src/blog/post-accueil.md
