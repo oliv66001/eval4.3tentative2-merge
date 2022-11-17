@@ -2,5 +2,3 @@
 label: post-accueil-img.html
 hide_body: false
 fields: []
-pages:
-- src/blog/post-accueil-img.html/accueil.html .css
