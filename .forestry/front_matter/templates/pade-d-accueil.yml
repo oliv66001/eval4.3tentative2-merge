@@ -9,5 +9,15 @@ fields:
     min: 
     max: 
   label: image
+- name: titre_de_la_page
+  type: number
+  label: Titre de la page
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - src/blog/post-accueil.md
