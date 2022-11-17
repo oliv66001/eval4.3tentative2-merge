@@ -5,7 +5,7 @@ fields:
 - name: image
   type: tag_list
   default: []
-  hidden: true
+  hidden: false
   label: image
 pages:
 - src/blog/post-accueil.md
