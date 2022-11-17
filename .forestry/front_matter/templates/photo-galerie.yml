@@ -2,11 +2,6 @@
 label: photo-galerie
 hide_body: false
 fields:
-- name: test3
-  type: include
-  config: {}
-  template: photo-galerie
-  label: test3
 - name: photo-gallerietest4
   type: select
   default: src/blog/photo-mariage.md
