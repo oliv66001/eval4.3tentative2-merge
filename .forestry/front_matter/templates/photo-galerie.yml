@@ -2,12 +2,10 @@
 label: photo-galerie
 hide_body: false
 fields:
-- name: test2-galerie
-  type: blocks
-  label: test2-galerie
-  template_types: []
-  config:
-    min: 
-    max: 
+- name: test3
+  type: include
+  config: {}
+  template: photo-galerie
+  label: test3
 pages:
 - src/blog/photo-bebe.md
