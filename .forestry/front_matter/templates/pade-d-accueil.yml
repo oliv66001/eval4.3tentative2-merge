@@ -1,9 +1,4 @@
 ---
 label: page d'accueil
 hide_body: false
-fields:
-- name: index_njk
-  type: text
-  config:
-    required: false
-  label: index.njk
+fields: []
