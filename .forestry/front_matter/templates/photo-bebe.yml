@@ -1,8 +1,0 @@
----
-label: photo-bebe
-hide_body: false
-fields:
-- name: photo
-  type: tag_list
-  default: []
-  label: photo
