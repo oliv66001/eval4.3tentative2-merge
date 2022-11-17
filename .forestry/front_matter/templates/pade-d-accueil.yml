@@ -1,13 +1,6 @@
 ---
 label: page d'accueil
-hide_body: true
-fields:
-- name: titre_de_la_page
-  type: blocks
-  label: Titre de la page
-  template_types: []
-  config:
-    min: 
-    max: 
+hide_body: false
+fields: []
 pages:
 - src/blog/post-accueil.md
