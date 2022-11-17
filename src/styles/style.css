@@ -258,6 +258,7 @@ img[class=galerie]{
         border-radius: 8px;
         background-size: cover;
         color:#B53471;
+        text-decoration: none;
     }
 #famille{
         width: 359px;
@@ -279,7 +280,7 @@ img[class=galerie]{
         border-radius: 8px;
         background-size: cover;
         color:#B53471;
-    }
+        }
 #tarifI{
         width: 359px;
         height: 300px;
@@ -295,7 +296,7 @@ h1{
 }
 h2{
     font-family: 'Satisfy', cursive;
- 
+    font-size: 35px;
 }
 h2:hover{
     color:#5758BB;
@@ -336,9 +337,7 @@ a{
     }
 
     /* Page galerie*/
-#titreG{
-    margin: -30px 0 -70px 0;
-   }
+
 
 /* Navbar */
 .nav-link:hover{
