@@ -1,4 +1,8 @@
 ---
 label: photo-famille
 hide_body: false
-fields: []
+fields:
+- name: photo
+  type: tag_list
+  default: []
+  label: photo
