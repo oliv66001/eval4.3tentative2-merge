@@ -1,6 +1,6 @@
 ---
 label: page d'accueil
-hide_body: false
+hide_body: true
 fields: []
 pages:
 - src/blog/post-accueil.md
