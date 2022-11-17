@@ -2,10 +2,8 @@
 label: photo-galerie
 hide_body: false
 fields:
-- name: couple
-  type: blocks
-  label: couple
-  template_types: []
+- name: photo-gallerie_test1
+  type: text
   config:
-    min: 
-    max: 
+    required: false
+  label: photo-gallerie test1
