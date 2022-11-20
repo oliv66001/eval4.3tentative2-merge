@@ -8,7 +8,8 @@ sections:
   path: src/images
   label: images
   create: documents
-  match: "**/*"
+  match: "/images/*.jpg"
+  exclude: "**/*.{yaml,yml,json,toml}"
   new_doc_ext: jpg
 - type: directory
   path: src/blog
