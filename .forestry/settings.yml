@@ -5,6 +5,12 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
+  path: src/posts
+  label: posts
+  create: all
+  match: "**/*"
+  exclude: "**/*.{yaml,yml,json,toml}"
+- type: directory
   path: src/images
   label: images
   create: documents
