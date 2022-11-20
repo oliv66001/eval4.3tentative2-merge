@@ -13,9 +13,9 @@ sections:
 - type: directory
   path: src/images
   label: images
-  create: documents
+  create: all
   match: "/images/*.jpg"
-  exclude: "**/*.{yaml,yml,json,toml}"
+  exclude: "**/*.{yaml,yml,json,toml,md}"
   new_doc_ext: jpg
 - type: directory
   path: src/blog
