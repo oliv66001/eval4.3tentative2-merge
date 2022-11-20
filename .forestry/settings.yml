@@ -9,7 +9,7 @@ sections:
   label: images
   create: all
   match: "**/*"
-  new_doc_ext: ".jpg .webp"
+  new_doc_ext: jpg .webp
 - type: directory
   path: src/blog
   label: blog
