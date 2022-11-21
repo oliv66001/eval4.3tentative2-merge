@@ -1,6 +1,5 @@
 ---
 layout: layout.njk
-
 ---
 
 <meta name="description" content="photographe réalise pour vous des photographies de mariage, Grossesse, Bébé, Famille, Baptême, Couple">
