@@ -1,0 +1,17 @@
+---
+label: photo-galerie
+hide_body: false
+fields:
+- name: photo-gallerietest4
+  type: select
+  default: src/blog/photo-mariage.md
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: blog-7b5c820c-c90a-4da8-b07a-feb3d8598f9c
+      file: 
+      path: 
+  label: photo-gallerietest4
+  hidden: true

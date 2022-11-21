@@ -1,1 +1,1 @@
-<style> #bebe { background-image: url(/images/bebe-2-500.jpg); } </style>
+<style> #bebe { background-image: url(/images/bebe5003.jpg); } </style>
