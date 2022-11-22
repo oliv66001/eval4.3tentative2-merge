@@ -145,9 +145,15 @@
        footer{
         margin-top: 30px;
     }
-       .titreA{
-        font-size: 55px;
-        margin-top: 70px;
+       #titreA{
+        font-size: 65px;
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+    .logo{
+       
+        margin-left: 0;
+      
     }
     /* tarifs */
        #tarifI{
