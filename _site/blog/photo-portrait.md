@@ -1,1 +1,0 @@
-<style> #portrait { background-image: url(/images/CharlesCantinphotoportrait.webp); }  </style>

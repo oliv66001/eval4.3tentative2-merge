@@ -3,10 +3,7 @@ layout: photo.njk
 tags: post
 ---
 
-<style>
 
-
-    </style>
 
 <div class="container">
 <div class="row">

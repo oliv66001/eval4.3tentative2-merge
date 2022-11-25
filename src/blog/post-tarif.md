@@ -1,3 +1,16 @@
+---
+layout: blog.njk
+tags: post
+---
+
+<style>
+h1{
+   margin-top: 60px;
+}
+</style>
+
+# Tarifs et prestations
+
 <article>
    <h3>Choisissez votre prestation</h3>
    <hr>

@@ -6,7 +6,7 @@ eleventyConfig.addCollection("blogposts", function (collection) {
   });
   
    // copy files
-    
+  
     eleventyConfig.addPassthroughCopy("./src/blog/");
     eleventyConfig.addPassthroughCopy("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/styles/");
