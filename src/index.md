@@ -1,17 +1,5 @@
 ---
 layout: layout.njk
+
 ---
-
-<body id="imageFront">
-<h1 class="titreA">Charles Cantin photographe</h1>
-
-
-<style>
- body[id=imageFront] {/* Modifier le lien entre parenthèses () pour changer l'image */
-         background-image:url(images/mariage1900.jpg) ;
-      }
-</style>
-
-
-
-
+<meta name="description" content="photographe réalise pour vous des photographies de mariage, Grossesse, Bébé, Famille, Baptême, Couple"> </head> <body class="imageFront"> <h1 class="titreA">Charles Cantin photographe</h1> <style> body { background-image:url(/images/portrait/fashion-g31e46459a_1920.jpg) ; background-attachment:fixed; background-size: cover; background-position: center center; } </style>
