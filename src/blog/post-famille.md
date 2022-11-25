@@ -10,6 +10,15 @@ categories:
   - Jamstack
   - Eleventy
 ---
+
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
+
 # Photo de famille
 ![famille](/images/famille/boys-g16c01aeac_1920.jpg)
 ![famille](/images/famille/family-g17324d31a_1920.jpg)

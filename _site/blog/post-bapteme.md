@@ -4,6 +4,7 @@ imageMedium: ""
 imageBig: ""
 imageAlt: "Alternative text for picture"
 tags: bapteme
+layout: "blog.njk"
 #permalink: "blog/{{ page.fileSlug }}/gallerie",
 categories:
   - front-end
@@ -11,6 +12,13 @@ categories:
   - Eleventy
 ---
 # Photo de baptème
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
 
 ![baptème](/images/bapt%C3%AAme/baby-g68b0005a3_1920.jpg)
 ![baptème](/images/bapt%C3%AAme/baptism-ga08f864ec_1920.jpg)

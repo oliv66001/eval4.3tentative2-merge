@@ -10,6 +10,15 @@ categories:
   - Jamstack
   - Eleventy
 ---
+
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
+
 # Photo de couple
 ![couple](/images/couple/couple-g0416a23f3_1920.jpg)
 ![couple](/images/couple/couple-ga4623177d_1920.jpg)

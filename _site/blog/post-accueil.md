@@ -1,1 +1,7 @@
-<style> body { background-image: url(/images/famille/father-g7b5c693fe_1920.jpg); } </style>
+---
+layout: layout.njk
+tags: ['accueil']
+---
+
+
+![Alt text](/images/mariage1900.jpg)

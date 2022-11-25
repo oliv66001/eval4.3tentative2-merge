@@ -11,6 +11,13 @@ categories:
   - Eleventy
 ---
 
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
 # Photo de grossesse
 ![grossesse](/images/grossesse/pregnancy-g3ecdd2c45_1920.jpg)
 ![grossesse](/images/grossesse/pregnant-g077f714bd_1920.jpg)

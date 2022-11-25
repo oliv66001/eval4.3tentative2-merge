@@ -1,0 +1,6 @@
+{
+    "layout": "accueil.njk",
+    "tags": [
+        "accueil"
+      ]
+}

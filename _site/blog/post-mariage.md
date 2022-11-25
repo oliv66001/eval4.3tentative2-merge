@@ -10,6 +10,14 @@ categories:
 - Eleventy
 
 ---
+
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
 # Photo de mariage
 
 ![mariage](/images/mariage/bride-g5f1c72416_1920%20(1).webp)

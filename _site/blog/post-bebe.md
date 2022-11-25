@@ -11,6 +11,13 @@ categories:
   - Eleventy
 ---
 
+<style>
+img {
+  width: 100%;
+  height: 100%;
+  }
+  </style>
+
 # Photo de bébé
 
 ![bébé](/images/b%C3%A9b%C3%A9/baby-g93583ea43_1920.jpg)
