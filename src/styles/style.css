@@ -223,7 +223,11 @@
 }
 
 /* Images */
-
+#imageFront{
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+}
 img{
     width: 350px;
     height: 280px;
