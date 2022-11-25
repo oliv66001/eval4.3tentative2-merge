@@ -2,5 +2,3 @@
 label: page d'accueil
 hide_body: false
 fields: []
-pages:
-- src/blog/post-accueil.md

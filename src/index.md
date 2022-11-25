@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+
 ---
 <body class="imageFront">
 <h1 class="titreA">Charles Cantin photographe</h1>
