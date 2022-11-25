@@ -2,4 +2,4 @@
 layout: layout.njk
 
 ---
-<meta name="description" content="photographe réalise pour vous des photographies de mariage, Grossesse, Bébé, Famille, Baptême, Couple"> </head> <body class="imageFront"> <h1 class="titreA">Charles Cantin photographe</h1> <style> body { background-image:url(/images/portrait/fashion-g31e46459a_1920.jpg) ; background-attachment:fixed; background-size: cover; background-position: center center; } </style>
+<meta name="description" content="photographe réalise pour vous des photographies de mariage, Grossesse, Bébé, Famille, Baptême, Couple"> </head> <body class="imageFront"> <h1 class="titreA">Charles Cantin photographe</h1> <style> body { background-image:url/images/model-gf9a11cea0_1920.jpg) ; background-attachment:fixed; background-size: cover; background-position: center center; } </style>
