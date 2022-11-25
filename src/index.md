@@ -7,7 +7,7 @@ layout: layout.njk
 
 
 <style>
- body {
+ body {/* Modifier le lien entre parenthèses () pour changer l'image */
          background-image:url(images/mariage1900.jpg) ;
       }
 </style>
