@@ -5,8 +5,8 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
-  path: src/page
-  label: page
+  path: src/photo
+  label: photo
   create: all
   match: "**/*"
 - type: directory
