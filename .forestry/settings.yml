@@ -5,18 +5,10 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
-  path: src/posts
-  label: posts
+  path: src/page
+  label: page
   create: all
   match: "**/*"
-  exclude: "**/*.{yaml,yml,json,toml}"
-- type: directory
-  path: src/images
-  label: images
-  create: all
-  match: "/images/*.jpg"
-  exclude: "**/*.{yaml,yml,json,toml,md}"
-  new_doc_ext: jpg
 - type: directory
   path: src/blog
   label: blog
