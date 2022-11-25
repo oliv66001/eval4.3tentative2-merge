@@ -5,7 +5,7 @@ admin_path: "/.forestry/"
 webhook_url: ''
 sections:
 - type: directory
-  path: src/index.md
+  path: src
   label: photoFront
   create: all
   match: "**/*"
