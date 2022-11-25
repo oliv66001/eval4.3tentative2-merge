@@ -7,5 +7,3 @@ fields:
   config:
     maxSize: 64
   label: images
-pages:
-- src/images/marier/soleil1.jpg
