@@ -21,7 +21,7 @@ img {
   </style>
 
 
-![portrait](/images/portrait/woman-ga853b5f70_1920.jpg)
+![portrait](/images/portrait/woman-ga853b5f70_1920.jpg "Photographie portrait")
 
-![portrait](/images/portrait/woman-g90b2bffed_1920.jpg)
+![portrait](/images/portrait/woman-g90b2bffed_1920.jpg "Photographie portrait")
 

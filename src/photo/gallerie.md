@@ -1,15 +1,21 @@
 ---
 layout: photo.njk
 tags: post
-
 ---
+
+<style>
+
+
+
+</style>
+
 <div class="container">
 <div class="row">
 {% for post in collections.bapteme %}
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Bapteme</h2>
 
-![baptème](/images/bapt%C3%AAme/baptism-ga08f864ec_1920.jpg)
+![baptème](/images/bapt%C3%AAme/baptism-ga08f864ec_1920.jpg "Photographie baptême")
 {% endfor %}
 </a>
 
@@ -17,7 +23,7 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Portrait</h2>
 
-![portrait](/images/portrait/woman-g90b2bffed_1920.jpg)
+![portrait](/images/portrait/woman-g90b2bffed_1920.jpg "Photographie portrait")
 {% endfor %}
 </a>
 
@@ -25,7 +31,7 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Mariage</h2>
 
-![mariage](/images/mariage/bride-g5f1c72416_1920%20(1).webp)
+![mariage](/images/mariage/bride-g5f1c72416_1920%20(1).webp "Photographie mariage")
 {% endfor %}
 </a></div>
 <div class="row">
@@ -33,7 +39,7 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Grossesse</h2>
 
-![grossesse](/images/grossesse/pregnancy-g3ecdd2c45_1920.jpg)
+![grossesse](/images/grossesse/pregnancy-g3ecdd2c45_1920.jpg "Photographie grossesse")
 {% endfor %}
 </a>
 
@@ -41,7 +47,7 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Famille</h2>
 
-![famille](/images/famille/boys-g16c01aeac_1920.jpg)
+![famille](/images/famille/boys-g16c01aeac_1920.jpg "Photographie famille")
 {% endfor %}
 </a>
 
@@ -49,7 +55,7 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Couple</h2>
 
-![couple](/images/couple/couple-g0416a23f3_1920.jpg)
+![couple](/images/couple/couple-g0416a23f3_1920.jpg "Photographie couple")
 {% endfor %}
 </a></div>
 <div class="row">
@@ -57,6 +63,6 @@ tags: post
 <a class="imgF" href="{{ post.url | url }}">
 <h2>Bébé</h2>
 
-![](/images/bebe-2-500.jpg)
+![](/images/bebe-2-500.jpg "Photographie bébé")
 {% endfor %}
 </a></div></div>
