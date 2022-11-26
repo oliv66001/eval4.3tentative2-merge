@@ -9,3 +9,12 @@ fields:
   config:
     min: 
     max: 
+- name: tarif_et_prestation
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: tarif et prestation
