@@ -1,4 +1,11 @@
 ---
 label: tarif
 hide_body: false
-fields: []
+fields:
+- name: tarif
+  type: blocks
+  label: tarif
+  template_types: []
+  config:
+    min: 
+    max: 
