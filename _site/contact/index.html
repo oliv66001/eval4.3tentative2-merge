@@ -37,39 +37,36 @@
  </head>
  <body id="imageFront">
 <main><h1>Formulaire de contact</h1>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label id="name"  for="name">Votre nom:<br /> <input type="text" name="name"  placeholder="Votre nom" required /></label>
-  </p>
-   <p>
-    <label id="prenom"  for="prenom">Votre prénom:<br /> <input type="text" name="prenom"  placeholder="Votre prénom" required/></label>
-  </p>
-  <p>
-    <label id="email"  for="email">Votre e-mail:<br /> <input type="email" name="email" placeholder="exemple@email.com" required/></label>
-  </p>
-  <p>
-    <label for="phone">Votre téléphone:<br />
-    <input type="tel" id="phone" name="phone"  placeholder="0606060606"
-       
-       required /></label>
-  </p>
-   <p>
-    <label id="message" for="message">Message:<br /> <textarea name="message" placeholder="Votre message" required></textarea></label>
-  </p>
-  <p>
-    <button class="btn" type="submit">Valider</button>
-  </p>
+<form class="row g-3" name="contact" method="POST" data-netlify="true">
+ 
+  <div class="col-md-6">
+    <label  id="name"  for="name">Votre nom:</label>
+    <input type="text" class="form" name="nom" placeholder="Votre nom" required>
+  </div>
+  <div class="col-md-6">
+    <label id="prenom"  for="prenom">Votre prénom:</label>
+    <input  type="text" class="form" name="prenom" placeholder="Votre prénom" required>
+  </div>
+  <div class="col-md-6">
+    <label for="email" id="email"  for="email">Votre e-mail:</label>
+    <input class="form" type="email" class="form" name="email" placeholder="exemple@email.com" required>
+  </div>
+  <div class="col-6">
+    <label for="phone">Votre téléphone:</label>
+    <input class="form" type="tel" id="phone" name="phone"  placeholder="0606060606" required>
+  </div>
+  <div class="col">
+    <label id="message" for="message">Message:</label>
+    <input type="textarea" class="textarea" name="message" placeholder="Votre message" required>
+  </div>
+  <div class="col-12">
+    <button id="validF" class="btn" type="submit" class="btn btn-primary">Valider</button>
+  </div>
 </form>
 <hr>
 <h4>Les informations saisies ne serviront que pour répondre<br /> à votre demande elles ne seront pas conservées ou utilisées à d'autres fins commerciales.</h4>
 <hr>
-</div>
-  </div>
-</div>
+
 </main>
 
 

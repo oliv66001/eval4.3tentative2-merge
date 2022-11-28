@@ -14,6 +14,16 @@
      a.nav-link{
         font-size: 37px;
     }
+
+    /* formulaire*/
+    input{
+        width: 450px;
+        height: 30px;
+    }
+       .textarea{
+        width: 550px;
+        height: 250px;
+    }
         /* images */
         img{
         width: 100%;
@@ -45,13 +55,13 @@
     }
 
      /* formulaire*/
-        input{
-        width: 120px;
-        height: 40px;
+        input.form{
+        width: 480px;
+        height: 30px;
     }
-       textarea{
-        width: 150px;
-        height: 150px;
+       input.textarea{
+        width: 400px;
+        height: 250px;
     }
        button{
         width: 120px;
@@ -84,10 +94,21 @@
         font-size: 37px;
     }
 
- /* formulaire*/
-        input{
-        width: 150px;
-    }
+  /* formulaire*/
+  input.form{
+    width: 480px;
+    height: 30px;
+}
+   input.textarea{
+    width: 720px;
+    height: 250px;
+}
+button{
+    width: 150px;
+    height: 60px;
+
+}
+
     /* images */
         img{
         width: 50%;
@@ -109,15 +130,20 @@
         font-size: 37px;
     }
    
-     /* formulaire*/
-        input{
-        width: 180px;
-     
-    }
-       textarea{
-        width: 200px;
-        height: 50px;
-    }
+    /* formulaire*/
+  input.form{
+    width: 480px;
+    height: 30px;
+}
+   input.textarea{
+    width: 920px;
+    height: 250px;
+}
+button{
+    width: 250px;
+    height: 60px;
+
+}
      /* images */
         img{
         width: 40%;
@@ -144,19 +170,20 @@
         font-size: 37px;
     }
 
-    /* formulaire*/
-        input{
-        width: 200px;
-        height: 30px;
-    }
-       textarea{
-        width: 250px;
-        height: 150px;
-    }
-       button{
-        width: 180px;
-        height: 50px;
-    }
+      /* formulaire*/
+  input.form{
+    width: 480px;
+    height: 30px;
+}
+   input.textarea{
+    width: 980px;
+    height: 250px;
+}
+button{
+    width: 300px;
+    height: 70px;
+
+}
      /* images */
         img{
         width: 50%;
@@ -190,19 +217,20 @@
         font-size: 30px;
     }
    
-    /* formulaire*/
-      input{
-        width: 200px;
-        height: 30px;
-    }
-       textarea{
-        width: 250px;
-        height: 150px;
-    }
-       button{
-        width: 180px;
-        height: 50px;
-    }
+      /* formulaire*/
+  input.form{
+    width: 480px;
+    height: 30px;
+}
+   input.textarea{
+    width: 1100px;
+    height: 200px;
+}
+button{
+    width: 360px;
+    height: 70px;
+
+}
      /* images */
         img{
         width: 50%;
@@ -235,8 +263,8 @@
         width: 200px;
         height: 30px;
     }
-       textarea{
-        width: 250px;
+       .textarea{
+        width: 790px;
         height: 150px;
     }
        button{
@@ -425,15 +453,32 @@ h1[id=titre]{
 
 label{
     font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
+    display: block;
 }
 
-form{
-    text-align: center;
-}
-
-input, textarea{
+input{
     border-radius: 10px;
     text-align: center;
+    padding-top: 20px;
+    width: 250px;
+}
+
+.textarea{
+    border-radius: 10px;
+    width: 350px;
+    height: 60px;
+    display: block;
+}
+
+form div{
+    display: inline-block;
+    margin: 20px;
+}
+
+#validF{
+    display: block;
+    justify-content: center;
 }
 
 .btn {
