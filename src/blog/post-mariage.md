@@ -23,7 +23,7 @@ height: 100%;
 
 ![mariage](/images/mariage/bride-gf021ff796_1920.webp)
 ![mariage](/images/mariage/couple-g5f6fa9c4e_1920.webp)
-
+![](/images/couple/people-g549cb42eb_1920.jpg)
 ![mariage](/images/mariage/couple-g46bd37a29_1920.webp)
 ![mariage](/images/mariage/sunset-ge1df91c5b_1920.webp)
 ![mariage](/images/mariage/wedding-dress-g797eb5bbe_1920.webp)
