@@ -3,6 +3,9 @@ layout: photo.njk
 tags: post
 
 ---
+
+# Galerie Photographies
+
 <div class="container">
 <div class="row">
 {% for post in collections.bapteme %}

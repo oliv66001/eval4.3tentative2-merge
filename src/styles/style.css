@@ -42,7 +42,7 @@
     }
     .logo{
         width: 80px;
-        height: 80px;
+        height: 60px;
     }
     /* tarif */
         #tarifI{
@@ -154,7 +154,7 @@ button{
 
 @media screen and (min-width: 1199.98px) { 
         footer{
-        margin-top: 140px;
+        margin-top: 100px;
     }
         .titreA{
         font-size: 65px;
@@ -192,12 +192,10 @@ button{
 }
 
 @media screen and (min-width: 1399.98px) { 
-       footer{
-        margin-top: 40px;
-    }
+      
        .titreA{
         font-size: 55px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     /* tarifs */
        #tarifI{
@@ -240,7 +238,7 @@ button{
 }
 @media screen and (min-width: 1699.98px) { 
        footer{
-        margin-top: 40px;
+        margin-top: 30px;
     }
        .titreA{
         font-size: 65px;
@@ -284,6 +282,7 @@ button{
     background-size: cover;
     background-position: center center;
 }
+
 img{
     width: 350px;
     height: 280px;
@@ -298,7 +297,7 @@ img[class=galerie]{
 
 .logo{
     width: 80px;
-    height: 80px;
+    height: 60px;
     margin-left:-10px;
     position: relative;
 }
@@ -307,7 +306,8 @@ img[class=galerie]{
 
 h1{
     font-family: 'Satisfy', cursive;
-   
+    backdrop-filter: blur(3px);
+    padding-top: 50px;
 }
 
 h2{
@@ -334,15 +334,16 @@ article, p{
     color:#222f3e;
 }
 
+
 body{
     text-align: center;
-    color:#341f97;
-    background: linear-gradient(#ff9f43, #ee5253,#ff6b6b, #ff9f43,#ff6b6b, #ee5253, #ff9f43);
-}
+    color:black;
+    background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
+
 
 a{
     display:inline-block;
-    color: #341f97;
+    color: black;
     font-weight: bold;
     font-size: 25px;
     margin-top: 15px;
@@ -403,26 +404,28 @@ a{
    
 nav{
     font-size: 20px;
-    height: 155px;
+    height: 50px;
     line-height: 20px;
     touch-action: auto;
-    
+    backdrop-filter: blur(3px);
     }
-.logo{
-        width: 60px;
-        height: 60px;
-    }
+
      
 
 /* Footer */
 
+/*#footer1{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   
+}*/
+
 #footer{
     height: 20px;
-    
+    padding-top: 20px;
     }
 
 svg{
-    color: #341f97;
+    color: black;
     position: static;
     margin: 10px;
 }
@@ -447,6 +450,7 @@ hr{
 /*Tarif et prestation*/
 h1[id=titre]{
     margin-top: -100px;
+   
 }
 
  /* formulaire de contact */
